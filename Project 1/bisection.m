@@ -1,7 +1,7 @@
 function [p, fp, ite] = bisection(f, a, b, M, Tol)
 %BISECTION approximates a root for a given function.
 %   
-i = 1;
+i = 0;
 fa = f(a);
 
 while i <= M
