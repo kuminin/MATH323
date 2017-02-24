@@ -1,4 +1,4 @@
-function [ x, fx, ite ] = newton( f, fprime, x0, M, tol )
+function [ x, fx, ite ] = newton(f, fprime, x0, M, tol )
 %NEWTON Summary of this function goes here
     fx = f(x0);
     ite = 0;
