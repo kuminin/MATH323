@@ -1,4 +1,4 @@
-clear
+aZclear
 
 f = @(x) 600*x^4 - 550*x^3 + 200*x^2 - 20*x - 1;
 fprime = @(x) 2400*x^3 - 1650*x^2 + 400*x - 20; % needed for newton's method
