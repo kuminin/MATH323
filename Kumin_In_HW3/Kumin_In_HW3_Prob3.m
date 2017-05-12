@@ -1,0 +1,3 @@
+clear;
+fprintf('Solution: %f\n', ...
+        compositeSimpson(@(x) 1 / (x + 4), 0, 2, 40));

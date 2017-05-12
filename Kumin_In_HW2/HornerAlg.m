@@ -1,4 +1,4 @@
-function [ f, fprimeP ] = HornerAlgorithm( a, z )
+function [ f, fprimeP ] = HornerAlg( a, z )
 %HORNERALGORITHM method for calulating the point at f and fprime.
 %   f is the point calculated at
 %   a is the vector of coefficients of a polynomial listed in decreasing order.

@@ -1,4 +1,4 @@
-function [ b, r ] = HornerMethod( a, z )
+function [ b, r ] = Horner( a, z )
 %HORNER method for synthetic division given any polynomial.
 %   b is the vector of coefficients in the quotient listed in decreasing order.
 %   r is the remainder term
